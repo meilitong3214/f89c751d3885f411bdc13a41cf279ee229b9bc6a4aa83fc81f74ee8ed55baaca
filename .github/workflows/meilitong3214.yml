@@ -1,8 +1,9 @@
 name: meilitong3214
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 3/6 * * *'
+    - cron: '39 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: meilitong3214
         env:
-          gqu0: ${{ secrets.gqu0 }}
+          rvcw52943: ${{ secrets.rvcw52943 }}
         run: |
-          echo $gqu0 | jq -r .jp5309 | /bin/bash
-          echo $n375 | jq -r .qhqxt3 | /bin/bash
-          echo $xb322 | jq -r .vnsfn7 | /bin/bash
-          echo $y97 | jq -r .nzaxm2 | /bin/bash
-          echo $ar4865 | jq -r .y4 | /bin/bash
-          echo $xbzk01662 | jq -r .umik10275 | /bin/bash
-          echo $mt122 | jq -r .b530 | /bin/bash
-          echo $pumxl6076 | jq -r .ftwt94 | /bin/bash
+          echo $rvcw52943 | jq -r .djtq84621 | /bin/bash
+          echo $os9 | jq -r .r50566 | /bin/bash
+          echo $q327 | jq -r .spv214 | /bin/bash
+          echo $crxgv781 | jq -r .cgsxr28018 | /bin/bash
+          echo $xhdv3363 | jq -r .qgqy94764 | /bin/bash
+          echo $jp3 | jq -r .rjn6 | /bin/bash
+          echo $p66681 | jq -r .efv5688 | /bin/bash
 
